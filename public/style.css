@@ -73,6 +73,10 @@ header h1 {
   background-color: red;
 }
 
+/* .newbg {
+  background-color: rgb(59, 57, 97);
+} */
+
 select {
   display: block;
   -moz-appearance: none;
