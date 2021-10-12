@@ -6,31 +6,18 @@
   padding: 0;
 }
 
-/* html,
+html,
 body,
 .wrapper {
   height: 100%;
-} */
+}
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: url(./assets/fitness-wallpaper.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-body.space main {
-  background: url(../assets/space2.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
 nav {
-  background-color: transparent;
+  background-color: #5793fd;
   color: #ffffff;
   padding: 24px;
   line-height: 3;
@@ -53,8 +40,8 @@ nav a {
 }
 
 nav a:hover {
-  /* background-color: #ffffff; */
-  color: red;
+  background-color: #ffffff;
+  color: #5793fd;
 }
 
 header {
@@ -63,19 +50,6 @@ header {
   text-align: center;
   font-size: 1.5rem;
 }
-
-header h1 {
-  font-size: 40px;
-  color: red;
-}
-
-.red {
-  background-color: red;
-}
-
-/* .newbg {
-  background-color: rgb(59, 57, 97);
-} */
 
 select {
   display: block;
@@ -128,10 +102,10 @@ input {
   background: linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%);
 }
 
-/* .wrapper {
+.wrapper {
   background-color: #f2f8ff;
   padding-bottom: 100px;
-} */
+}
 
 .card.m-auto,
 .m-auto {
