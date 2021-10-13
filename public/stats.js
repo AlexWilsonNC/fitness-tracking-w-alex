@@ -1,3 +1,11 @@
+fetch("/api/workouts/range")
+  .then(response => {
+    return response.json();
+  })
+  .then(data => {
+    populateChart(data);
+  });
+
 function calculateTotalWeight(data) {
   const totals = [];
 
@@ -64,7 +72,15 @@ function populateChart(data) {
   let barChart = new Chart(bar, {
     type: 'bar',
     data: {
-      labels,
+      labels: [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+      ],
       datasets: [
         {
           label: 'Pounds',
