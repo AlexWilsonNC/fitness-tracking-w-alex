@@ -15,7 +15,7 @@ router.get('/api/workouts', (req, res) => {
             res.json(workout)
         })
         .catch(err => {
-            res.json(e)
+            res.json(err)
         })
 })
 
