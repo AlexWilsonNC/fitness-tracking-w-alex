@@ -34,6 +34,7 @@ const workoutSchema = new Schema({
             }
         }
     ],
+    //adding through get route... but keeping default
     totalDuration: {
         type: Number,
         default: 0

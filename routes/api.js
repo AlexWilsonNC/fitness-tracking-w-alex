@@ -7,9 +7,8 @@ router.get('/api/workouts', (req, res) => {
             $addFields: {
                 totalDuration: {
                     $sum: '$exercise.duration'
-                },
-            },
-        },
+            }}
+        }
     ])
         .then(workout => {
             res.json(workout)
